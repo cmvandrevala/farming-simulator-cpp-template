@@ -3,5 +3,5 @@
 #include "src/farm.hpp"
 
 int main() {
-  zoom("🚙");
+  std::cout << farm() << std::endl;
 }

@@ -27,9 +27,5 @@ Any tests that you define in the `tests/` directory must have a corresponding en
 
 The `main.cpp` file at the root of the project must have a corresponding entry in `CMakeLists.txt`. After you build executables using CMake, you can run the driver program from within the `build/` directory.
 
-## Running Benchmarks
-
-Benchmarking is provided with Catch2. You can write benchmarking assertions alongside test assertions right in your test files.
-
 [catch2]: https://github.com/catchorg/Catch2
 [cmake]: https://cmake.org/

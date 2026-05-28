@@ -1,10 +1,8 @@
 #include <catch2/catch_test_macros.hpp>
-#include <catch2/benchmark/catch_benchmark.hpp>
-#include <catch2/benchmark/catch_constructor.hpp>
-#include <catch2/generators/catch_generators_range.hpp>
 
 #include "../src/farm.hpp"
 
-TEST_CASE( "it returns Hello World" ) {
-    REQUIRE( hello() == "Hello World!" );
+// You can delete this test case and replace it with your own tests
+TEST_CASE( "it returns a response" ) {
+  REQUIRE( farm() == "This is an example function. You can delete it when you start this portfolio!" );
 }

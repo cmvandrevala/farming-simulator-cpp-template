@@ -1,4 +1,3 @@
 #include <string>
 
-std::string hello();
-void zoom(std::string symbol);
+std::string farm();
